@@ -1,0 +1,68 @@
+body {
+  background: white;
+  font-family: "Segoe UI";
+}
+
+#wrapper {
+  width: 720px;
+  background: white;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#smallWrapper {
+  color: black; 
+  margin-top: 0.75rem;
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#buttonNav {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+img {
+    
+  border: 1px solid black;
+  border-radius: 12px;
+
+  position:absolute; 
+  TOP:130px; 
+  LEFT:875px;
+}
+
+a {
+  color: steelblue;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+.tableSet{
+  border: 1px solid black;
+}
+
+.th1, .td1 {
+  border: 1px solid black;
+  padding: 10px;
+}
+#t01 tr:nth-child(even) {
+  background-color: rgb(214, 214, 214);
+}
+#t01 tr:nth-child(odd) {
+ background-color: white;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+
+

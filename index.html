@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile</title>
+
+	      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+        <style>
+
+            .container {
+		        	width: 730px;
+		        }
+            
+        </style>
+        <link rel ="stylesheet" href ="style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <span class="navbar-brand mb-1 h1"><i class="bi bi-card-text"></i> My Profile</span>
+            </div>
+        </nav>
+
+        <div id = "wrapper"> 
+          <p id = "smallWrapper" class = "shadow mb-5 bg-body rounded" style="line-height: 2"><strong>Name:</strong> Han TaeHyuk (한태혁) 
+            <br><strong>Affiliation:</strong> Sungkyunkwan University(SKKU)</br>
+            <strong>Contact information(email):</strong> <span class="text-success"> hantaihe@naver.com</span>
+            <br><strong>GitHub account:</strong> hantaihe</br>
+            <strong>Interests:</strong> Open Source Software Practice
+            <br><strong>Hobby:</strong> Playing games, Watching soccer games</br>
+            <strong>Semesters:</strong> 2 - 1 (Sophomore)
+            <br></br> 
+            
+            <img src="photo.jpg" alt="I love cats a lot!" width="175" />
+          </p>
+  
+          <h3 style="margin-top:2rem; margin-bottom:1.5rem"><i class="bi bi-caret-down"></i>  Useful Links</h3>
+          <ul>
+            <li><a href="https://icampus.skku.edu/">SKKU i-Campus</a></li>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.naver.com">Naver</a></li>
+            <li><a href="https://github.com/">Github</a></li>
+            <li><a href="https://cs.skku.edu/ko/">Web site - SKKU College of Computing and Informatics</a></li>
+          </ul>
+          <h3 style="margin-top:2rem; margin-bottom:1.5rem"><i class="bi bi-caret-down"></i>  My Schedule</h3>
+          <table id = "t01" class = "tableSet">
+            <tr>
+              <th class = "th1 w-25">Monday</th>
+              <th class = "th1 w-25">Tuesday</th>
+              <th class = "th1 w-25">Wednesday</th>
+              <th class = "th1 w-25">Thursday</th>
+              <th class = "th1 w-25">Friday</th>
+            </tr>
+            <tr>
+              <td class = "td1">System Program</td>
+              <td class = "td1">Human and Land Civilization</td>
+              <td class = "td1">System Program</td>
+              <td class = "td1">AI Basics and Utilization</td>
+              <td class = "td1">Linear Algebra</td>
+            </tr>
+            <tr>
+              <td class = "td1">Logic Circuits</td>
+              <td class = "td1">Sports English</td>
+              <td class = "td1">Logic Circuits</td>
+              <td class = "td1">Open Source Software Practice</td>
+              <td class = "td1"></td>
+            </tr>
+            <tr>
+              <td class = "td1">JAVA Programming Lab</td>
+              <td class = "td1"></td>
+              <td class = "td1"></td>
+              <td class = "td1"></td>
+              <td class = "td1"></td>
+            </tr>
+          </table>
+          
+          
+          <h3 style="margin-top:2rem; margin-bottom:1.5rem"><i class="bi bi-caret-down"></i>  Todos</h3>
+          <ol class="list-group list-group-numbered">
+            
+            <li class="list-group-item text-primary">Attend lectures</li>
+            <li class="list-group-item text-primary">Finish OSS assignment</li>
+            <li class="list-group-item text-primary">Finish HLC weekly assignment</li>
+            <li class="list-group-item text-primary">Finish SE writing assignment</li>
+            <li class="list-group-item text-primary">Finish AIBU writing assignment</li>
+            <li class="list-group-item text-primary">Finish JAVA assignment</li>
+          </ol>
+
+          <h3 style="margin-top:2rem; margin-bottom:1.5rem"><i class="bi bi-caret-down"></i>  Previous semesters</h3>
+
+          <nav class="navbar navbar-light bg-light" id = "buttonNav">
+            <div class="container-fluid">
+            <a class="btn btn-secondary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">1 - 1 (Freshmen)</a>
+            <a class="btn btn-secondary me-auto ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">1 - 2 (Freshmen)</a>
+            </div>
+          </nav>
+
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body" style="border: 1px solid black;">
+                  <p class="fs-10">I took a total of 8 subjects in the first semester of my freshman year. Among them, threre was only 1 major subject, and the subject name was "Introduction to Computer Engineering". It was beneficial to build general knowledge related to computers through this course. Besides, there was the programming subject called "Basis and Practice in Programming", which was very interesting.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                
+                <div class="card card-body" style="border: 1px solid black;">
+                  <p class="fs-10">I took a total of 7 subjects in the second semester of my freshman year. Among them, threre was 1 major subject, and the subject name was "Data Structures". Although the assignment was a little difficult, it really very interesting and I felt happy whenever I solved it. And as a programming subject, there was "Basis and Practice in Programming", and it was great to learn about C++ well.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+ </body>
+</html>
